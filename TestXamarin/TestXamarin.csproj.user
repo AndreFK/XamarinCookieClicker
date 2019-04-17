@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-G925V</SelectedDevice>
     <DefaultDevice>Android_Accelerated_x86_Nougat</DefaultDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredTheme>Theme.DeviceDefault.Dialog.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

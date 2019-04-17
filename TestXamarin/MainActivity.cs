@@ -7,7 +7,7 @@ using System.Timers;
 
 namespace TestXamarin
 {
-    [Activity(Label = "TestXamarin", MainLauncher = true)]
+    [Activity(Label = "\""+"CookieClicker"+"\"", Icon ="@drawable/PerfectCookie",MainLauncher = true)]
     public class MainActivity : Activity
     {
         Timer t1 = new Timer();
@@ -55,51 +55,51 @@ namespace TestXamarin
                  {
                      if (cursors == 0 && counter < 4)
                      {
-                         message = "No tienes suficientes galletas!";
+                         message = "No tienes suficientes galletas! Ocupas: 4 galletas";
                      }
-                     else if (counter < 4 * cursors * 2)
+                     else if (counter < 4 * cursors * 40)
                      {
-                         message = "No tienes suficientes galletas!";
+                         message = "No tienes suficientes galletas! Ocupas: " + (4*cursors*40).ToString() + " galletas";
                      }
                      else
                      {
                          counter -= 4;
                          cursors++;
-                         message += " produciendo 1 gps * " + cursors.ToString();
+                         message += " produciendo " + cursors.ToString() + " gps";
                      }
                  }
                  else if(message == "Abuela")
                  {
                      if (grannies == 0 && counter < 10)
                      {
-                         message = "No tienes suficientes galletas!";
+                         message = "No tienes suficientes galletas! Ocupas: 10 galletas";
                      }
-                     else if (counter < 10 * grannies*2)
+                     else if (counter < 10 * grannies * 40)
                      {
-                         message = "No tienes suficientes galletas!";
+                         message = "No tienes suficientes galletas! Ocupas: " + (10*grannies*40).ToString() + " galletas";
                      }
                      else
                      {
                          counter -= 10;
                          grannies++;
-                         message += " produciendo 3 gps * " + grannies.ToString();                                                  
+                         message += " produciendo " + (3*grannies).ToString() + " gps";                                                  
                      } 
                  }
                  else if(message == "Granja")
                  {
                          if (farms == 0 && counter < 20)
                          {
-                             message = "No tienes suficientes galletas!";
+                             message = "No tienes suficientes galletas! Ocupas: 20 galletas";
                          }
-                         else if(farms > 0 && counter < 20 * farms * 2)
+                         else if(farms > 0 && counter < 20 * farms * 40)
                          {
-                             message = "No tienes suficientes galletas!";
+                             message = "No tienes suficientes galletas! Ocupas: " + (20*farms*40).ToString() + " galletas";
                          }
                          else
                          {
                              counter -= 20;
                              farms++;
-                             message += " 5 gps * " + farms.ToString();
+                             message += " produciendo " + (farms*5).ToString() + " gps";
                          }
                  }
                  Toast.MakeText(this, message, ToastLength.Short).Show();

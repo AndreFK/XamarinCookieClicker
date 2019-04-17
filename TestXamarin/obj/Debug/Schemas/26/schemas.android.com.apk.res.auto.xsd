@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>4/16/2019 8:01:16 PM</xs:documentation>
+    <xs:documentation>4/16/2019 10:27:24 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -155,7 +155,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -751,7 +751,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -1275,7 +1275,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -2467,7 +2467,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -2991,7 +2991,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -3629,7 +3629,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -4502,7 +4502,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -5080,7 +5080,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -5676,7 +5676,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -6200,7 +6200,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -7015,7 +7015,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -7551,7 +7551,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -8243,7 +8243,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -9069,7 +9069,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -10849,7 +10849,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -11541,7 +11541,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
@@ -12252,7 +12252,7 @@
             <xs:enumeration value="@drawable/background" />
             <xs:enumeration value="@drawable/buttonstyle" />
             <xs:enumeration value="@drawable/cookiebtn" />
-            <xs:enumeration value="@drawable/cursoricontransparent" />
+            <xs:enumeration value="@drawable/cursorimg" />
             <xs:enumeration value="@drawable/menu" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />

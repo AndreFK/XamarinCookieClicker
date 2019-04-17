@@ -3,10 +3,7 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
   <item android:id="@+id/Item1"
-        android:title="Cursor"
-  >
-    Some
-  </item>
+        android:title="Cursor"/>
   <item android:id="@+id/Item2"
         android:title="Abuela"/>
   <item android:id="@+id/Item3"
