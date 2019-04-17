@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+  <item android:id="@+id/Item1"
+        android:title="Cursor"
+  >
+    Some
+  </item>
+  <item android:id="@+id/Item2"
+        android:title="Abuela"/>
+  <item android:id="@+id/Item3"
+        android:title="Granja"/>
+</menu>

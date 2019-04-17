@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="@drawable/background">
+    <Button
+        android:text="Tienda"
+        android:textColor="#FFFFFF"
+        android:background="#233b60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Btn" />
+    <TextView
+        android:text="Galletas"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Gps = 0"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gps" />
+    <ImageButton
+        android:src="@drawable/CookieBtn"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+</LinearLayout>
